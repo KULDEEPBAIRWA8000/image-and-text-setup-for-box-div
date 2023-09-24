@@ -1,0 +1,138 @@
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+}
+
+#left {
+    width: 40%;
+    height: 100%;
+    /* background-color: yellow; */
+    position: relative;
+}
+
+#lnav{
+    width: 100%;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#lnav i{
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#left #textcenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#textcenter h1{
+    font-size: 150px;
+    font-weight: 900;
+
+}
+
+#textcenter p{
+    opacity: .6;
+    font-size: 35px;
+    line-height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#textcenter a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-weight: 400;
+    border-bottom: 3px solid #000;
+    margin-bottom: 20px;
+    opacity: .7;
+   
+}
+
+
+#lnav-right a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    padding-right: 40px;
+}
+
+#lnav-right i{
+    align-items: center;
+    font-size: 30px;
+    padding-right: 30px;
+    color: blue;
+    cursor: pointer;
+}
+
+
+#right {
+    width: 60%;
+    height: 100%;
+    /* background-color: pink; */
+
+
+}
+
+#right-up {
+    width: 100%;
+    height: 50%;
+    /* background-color: black; */
+    display: flex;
+}
+
+#right-up-left {
+    width: 55%;
+    height: 100%;
+    /* background-color: paleturquoise; */
+    background-image: url(img/first.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#right-up-right {
+    width: 45%;
+    height: 100%;
+    /* background-color: aqua; */
+    background-image:url(img/section.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position: bottom;
+}
+
+#right-down {
+    width: 100%;
+    height: 50%;
+    /* background-color: blue; */
+    background-image: url(img/thrid.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
